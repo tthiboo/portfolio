@@ -1,0 +1,75 @@
+{
+  "project": "Relay",
+  "recorded_at": "2026-10-09T08:16:58.686897+00:00",
+  "python": "3.11.4",
+  "platform": "macOS-26.6.2-arm64-arm-64bit",
+  "command": "python3 -m unittest -v test_relay",
+  "tests_passed": 14,
+  "tests_failed": 0,
+  "duration_seconds": 6.678,
+  "results": {
+    "concurrent_duplicate_submissions": {
+      "http_submissions": 100,
+      "unique_events": 1,
+      "duplicates_blocked": 99,
+      "crm_post_calls": 1,
+      "crm_contacts": 1
+    },
+    "lost_response": {
+      "status": "delivered",
+      "claimed_attempts": 2,
+      "crm_post_calls": 1
+    },
+    "forced_process_crash_after_crm_commit": {
+      "status_after_restart": "delivered",
+      "claimed_attempts": 2,
+      "crm_post_calls": 1,
+      "crm_contacts": 1
+    },
+    "temporary_crm_outage": {
+      "injected_503_responses": 2,
+      "claimed_attempts": 3,
+      "status": "delivered"
+    },
+    "unknown_opaque_outcome": {
+      "status": "review",
+      "crm_post_calls": 1
+    },
+    "expired_opaque_lease": {
+      "status": "review",
+      "reclaimed_for_delivery": false
+    },
+    "permanent_rejection": {
+      "status": "failed",
+      "crm_post_calls": 1,
+      "crm_contacts": 0
+    },
+    "retry_budget": {
+      "status": "review",
+      "claimed_attempts": 4
+    },
+    "stale_owner_fencing": "passed",
+    "payload_conflict_409": "passed",
+    "tenant_isolation": "passed",
+    "contact_upsert": "passed",
+    "signature_expiry_and_input_validation": "passed"
+  },
+  "scope": "Controlled local simulator. Functional checks, not throughput or production reliability benchmarks.",
+  "ui_checks": {
+    "desktop": "1280x720",
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "document_width": 390,
+      "horizontal_document_overflow": false
+    },
+    "console_errors_observed": 0,
+    "scenarios_verified": [
+      "duplicates",
+      "lost_response",
+      "worker_stop_resume",
+      "unsafe",
+      "outage"
+    ]
+  }
+}

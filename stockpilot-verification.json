@@ -1,0 +1,10 @@
+{
+  "tests_run": 23,
+  "failures": 0,
+  "errors": 0,
+  "passed": true,
+  "seconds": 0.655,
+  "python": "3.11.4",
+  "platform": "macOS-26.6.2-arm64-arm-64bit",
+  "at_utc": "2026-10-09T12:25:49.909366+00:00"
+}

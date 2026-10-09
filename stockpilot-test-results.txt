@@ -1,0 +1,28 @@
+test_annual_horizon_alignment (test_stockpilot.ForecastTests.test_annual_horizon_alignment) ... ok
+test_future_sales_do_not_change_forecast_inputs (test_stockpilot.ForecastTests.test_future_sales_do_not_change_forecast_inputs) ... ok
+test_metric_definitions (test_stockpilot.ForecastTests.test_metric_definitions) ... ok
+test_reject_unknown_negative_nonfinite (test_stockpilot.ForecastTests.test_reject_unknown_negative_nonfinite) ... ok
+test_simple_level_and_mean (test_stockpilot.ForecastTests.test_simple_level_and_mean) ... ok
+test_zero_metrics_are_not_fake_accuracy (test_stockpilot.ForecastTests.test_zero_metrics_are_not_fake_accuracy) ... ok
+test_http_origin_body_and_route_boundaries (test_stockpilot.HTTPTests.test_http_origin_body_and_route_boundaries) ... ok
+test_http_state_plan_and_results (test_stockpilot.HTTPTests.test_http_state_plan_and_results) ... ok
+test_budget_and_lead_change_actual_calculations (test_stockpilot.PlanningTests.test_budget_and_lead_change_actual_calculations) ... ok
+test_budget_and_pack_rounding (test_stockpilot.PlanningTests.test_budget_and_pack_rounding) ... ok
+test_identical_start_and_budget_across_policies (test_stockpilot.PlanningTests.test_identical_start_and_budget_across_policies) ... ok
+test_inactivity_flag_uses_only_the_eight_prior_weeks (test_stockpilot.PlanningTests.test_inactivity_flag_uses_only_the_eight_prior_weeks) ... ok
+test_invalid_assumptions_not_silently_clamped (test_stockpilot.PlanningTests.test_invalid_assumptions_not_silently_clamped) ... ok
+test_order_arrival_timing_and_inventory_balance (test_stockpilot.PlanningTests.test_order_arrival_timing_and_inventory_balance) ... ok
+test_pipeline_reduces_order_request (test_stockpilot.PlanningTests.test_pipeline_reduces_order_request) ... ok
+test_simulation_first_decision_does_not_use_later_actuals (test_stockpilot.PlanningTests.test_simulation_first_decision_does_not_use_later_actuals) ... ok
+test_zero_budget_and_zero_stock_override (test_stockpilot.PlanningTests.test_zero_budget_and_zero_stock_override) ... ok
+test_coverage_and_losing_skus_are_reported (test_stockpilot.ProtocolTests.test_coverage_and_losing_skus_are_reported) ... ok
+test_frozen_files_match_evaluation_hashes (test_stockpilot.ProtocolTests.test_frozen_files_match_evaluation_hashes) ... ok
+test_model_selection_reproduces_from_validation_only (test_stockpilot.ProtocolTests.test_model_selection_reproduces_from_validation_only) ... ok
+test_periods_do_not_cross_selection_calibration_test (test_stockpilot.ProtocolTests.test_periods_do_not_cross_selection_calibration_test) ... ok
+test_report_metrics_reconcile_independently (test_stockpilot.ProtocolTests.test_report_metrics_reconcile_independently) ... ok
+test_source_dispositions_reconcile_and_segments_exist (test_stockpilot.ProtocolTests.test_source_dispositions_reconcile_and_segments_exist) ... ok
+
+----------------------------------------------------------------------
+Ran 23 tests in 0.605s
+
+OK

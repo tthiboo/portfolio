@@ -1,0 +1,25 @@
+test_fixed_synthetic_layout_evaluation (test_guard.EvaluationTests.test_fixed_synthetic_layout_evaluation) ... ok
+test_control_and_input_boundaries (test_guard.HTTPTests.test_control_and_input_boundaries) ... ok
+test_upload_export_and_original_document (test_guard.HTTPTests.test_upload_export_and_original_document) ... ok
+test_clear_and_source_evidence (test_guard.LedgerTests.test_clear_and_source_evidence) ... ok
+test_concurrent_exact_replays_atomic (test_guard.LedgerTests.test_concurrent_exact_replays_atomic) ... ok
+test_cumulative_quantity_survives_restart (test_guard.LedgerTests.test_cumulative_quantity_survives_restart) ... ok
+test_currency_mismatch_no_conversion_or_claim (test_guard.LedgerTests.test_currency_mismatch_no_conversion_or_claim) ... ok
+test_encrypted_document_needs_manual_extraction (test_guard.LedgerTests.test_encrypted_document_needs_manual_extraction) ... ok
+test_identifier_with_changed_content_is_held (test_guard.LedgerTests.test_identifier_with_changed_content_is_held) ... ok
+test_invalid_total_no_claim (test_guard.LedgerTests.test_invalid_total_no_claim) ... ok
+test_missing_is_not_classified_as_mismatch (test_guard.LedgerTests.test_missing_is_not_classified_as_mismatch) ... ok
+test_money_and_ambiguous_numbers (test_guard.LedgerTests.test_money_and_ambiguous_numbers) ... ok
+test_partial_receipt_quantity (test_guard.LedgerTests.test_partial_receipt_quantity) ... ok
+test_price_variance_decimal_and_locale (test_guard.LedgerTests.test_price_variance_decimal_and_locale) ... ok
+test_reference_import_atomic_and_immutable (test_guard.LedgerTests.test_reference_import_atomic_and_immutable) ... ok
+test_repeated_field_never_passes (test_guard.LedgerTests.test_repeated_field_never_passes) ... ok
+test_same_content_new_number_is_only_suspected_duplicate (test_guard.LedgerTests.test_same_content_new_number_is_only_suspected_duplicate) ... ok
+test_semantic_duplicate_does_not_reserve (test_guard.LedgerTests.test_semantic_duplicate_does_not_reserve) ... ok
+test_textless_and_damaged_documents_never_clear (test_guard.LedgerTests.test_textless_and_damaged_documents_never_clear) ... EOF marker not found
+ok
+
+----------------------------------------------------------------------
+Ran 19 tests in 1.322s
+
+OK

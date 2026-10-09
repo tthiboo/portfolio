@@ -1,0 +1,150 @@
+{
+  "recorded_at": "2026-10-09T11:04:28.533687+00:00",
+  "python": "3.11.4",
+  "platform": "macOS-26.6.2-arm64-arm-64bit",
+  "tests": {
+    "passed": 19,
+    "failed": 0,
+    "duration_seconds": 1.625
+  },
+  "synthetic_evaluation": {
+    "documents": 12,
+    "layout": "Alias labels and reordered header layout; two explicit numeric locales",
+    "fields_correct": 168,
+    "fields_checked": 168,
+    "matched_documents": 12,
+    "true_positive_rule_codes": 9,
+    "false_positive_rule_codes": 0,
+    "false_negative_rule_codes": 0,
+    "rule_precision": 1.0,
+    "rule_recall": 1.0,
+    "clean_documents": 3,
+    "clean_documents_sent_to_review": 0,
+    "samples": [
+      {
+        "pdf": "output/pdf/evaluation-00.pdf",
+        "expected_codes": [],
+        "observed_codes": [],
+        "elapsed_ms": 4.125
+      },
+      {
+        "pdf": "output/pdf/evaluation-01.pdf",
+        "expected_codes": [
+          "PRICE_VARIANCE"
+        ],
+        "observed_codes": [
+          "PRICE_VARIANCE"
+        ],
+        "elapsed_ms": 3.155
+      },
+      {
+        "pdf": "output/pdf/evaluation-02.pdf",
+        "expected_codes": [
+          "RECEIPT_QUANTITY"
+        ],
+        "observed_codes": [
+          "RECEIPT_QUANTITY"
+        ],
+        "elapsed_ms": 3.579
+      },
+      {
+        "pdf": "output/pdf/evaluation-03.pdf",
+        "expected_codes": [
+          "TOTAL_MISMATCH"
+        ],
+        "observed_codes": [
+          "TOTAL_MISMATCH"
+        ],
+        "elapsed_ms": 3.448
+      },
+      {
+        "pdf": "output/pdf/evaluation-04.pdf",
+        "expected_codes": [],
+        "observed_codes": [],
+        "elapsed_ms": 3.107
+      },
+      {
+        "pdf": "output/pdf/evaluation-05.pdf",
+        "expected_codes": [
+          "PRICE_VARIANCE"
+        ],
+        "observed_codes": [
+          "PRICE_VARIANCE"
+        ],
+        "elapsed_ms": 4.193
+      },
+      {
+        "pdf": "output/pdf/evaluation-06.pdf",
+        "expected_codes": [
+          "RECEIPT_QUANTITY"
+        ],
+        "observed_codes": [
+          "RECEIPT_QUANTITY"
+        ],
+        "elapsed_ms": 3.435
+      },
+      {
+        "pdf": "output/pdf/evaluation-07.pdf",
+        "expected_codes": [
+          "TOTAL_MISMATCH"
+        ],
+        "observed_codes": [
+          "TOTAL_MISMATCH"
+        ],
+        "elapsed_ms": 2.957
+      },
+      {
+        "pdf": "output/pdf/evaluation-08.pdf",
+        "expected_codes": [],
+        "observed_codes": [],
+        "elapsed_ms": 3.086
+      },
+      {
+        "pdf": "output/pdf/evaluation-09.pdf",
+        "expected_codes": [
+          "PRICE_VARIANCE"
+        ],
+        "observed_codes": [
+          "PRICE_VARIANCE"
+        ],
+        "elapsed_ms": 5.756
+      },
+      {
+        "pdf": "output/pdf/evaluation-10.pdf",
+        "expected_codes": [
+          "RECEIPT_QUANTITY"
+        ],
+        "observed_codes": [
+          "RECEIPT_QUANTITY"
+        ],
+        "elapsed_ms": 2.985
+      },
+      {
+        "pdf": "output/pdf/evaluation-11.pdf",
+        "expected_codes": [
+          "TOTAL_MISMATCH"
+        ],
+        "observed_codes": [
+          "TOTAL_MISMATCH"
+        ],
+        "elapsed_ms": 4.826
+      }
+    ]
+  },
+  "scope": "Small original synthetic evaluation. No real supplier, OCR, universal invoice accuracy or customer savings claimed.",
+  "ui_verification": {
+    "desktop": "1280 x 720",
+    "mobile": "390 x 844",
+    "horizontal_document_overflow": false,
+    "console_errors_observed": 0,
+    "checked": [
+      "price_comparison",
+      "line_matches",
+      "source_fields",
+      "actual_pdf_upload",
+      "cumulative_quantities",
+      "semantic_duplicate",
+      "filters"
+    ]
+  }
+}
